@@ -1,0 +1,67 @@
+@import "foundation";
+
+.pd-bt-reset {
+  padding-bottom: 0 !important;
+}
+
+.pd-reset {
+  padding: 0 !important;
+}
+
+.mg-reset {
+  margin: 0 !important;
+}
+
+.reset {
+  margin: 0 !important;
+  padding: 0 !important;
+  text-align: center !important;
+  margin: 0 auto !important;
+}
+
+.yellow-bg {
+  background-color: #eacb3c !important;
+}
+
+.auto {
+  margin: 0 auto !important;
+}
+
+
+table .block  {
+  @media only screen and (max-width: 596px) {
+  display: table-row-group !important;
+}
+}
+
+table .true  {
+  @media only screen and (max-width: 596px) {
+  display: table-header-group !important;
+}
+}
+
+
+
+
+.yellow {
+  color: #eacb3c !important;
+}
+
+.black {
+  background-color: #282828; 
+}
+
+.white {
+  color: #fff;
+}
+
+.auto-adaptive {
+  @media only screen and (max-width: 596px) {
+    margin: 0 auto !important;
+  }
+}
+
+.block {
+  padding-left: 16px !important;
+  padding-right: 0 !important;
+}

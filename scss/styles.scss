@@ -7,6 +7,17 @@
 .pd-reset {
   padding: 0 !important;
 }
+@media only screen and (min-width: 596px) {
+.pd-red {
+  padding-bottom: 8px !important;
+  padding-top: 8px !important;
+}}
+
+@media only screen and (max-width: 596px) {
+  .pd-red {
+  padding-bottom: 14px !important;
+  padding-top: 14px !important;
+}}
 
 .mg-reset {
   margin: 0 !important;
@@ -18,9 +29,11 @@
   text-align: center !important;
   margin: 0 auto !important;
 }
-
-.yellow-bg {
-  background-color: #eacb3c !important;
+.whitefon {
+  background-color: #fff;
+}
+.redfon {
+  background-color: $redcolor !important;
 }
 
 .auto {
@@ -40,15 +53,18 @@ table .true  {
 }
 }
 
-
-
-
-.yellow {
-  color: #eacb3c !important;
+.red {
+  color: $redcolor;
+  text-decoration: underline;
+  font-weight: 700;
 }
 
-.black {
-  background-color: #282828; 
+.greyfon {
+  background-color: #2a2a2a !important;
+}
+
+.blackfon {
+  background-color: #000; 
 }
 
 .white {
@@ -61,6 +77,9 @@ table .true  {
   }
 }
 
+.tiny-text {
+  font-size: 10px;
+}
 .block {
   padding-left: 16px !important;
   padding-right: 0 !important;

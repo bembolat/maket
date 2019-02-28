@@ -68,10 +68,10 @@ table, tr, td {
 
 html {
   min-height: 100%;
-  background: #fff; }
+  background: #2a2a2a; }
 
 table.body {
-  background: #fff;
+  background: #2a2a2a;
   height: 100%;
   width: 100%; }
 
@@ -780,7 +780,7 @@ p,
 td,
 th,
 a {
-  color: #000000;
+  color: #ffffff;
   font-family: Arial, sans-serif;
   font-weight: normal;
   padding: 0;
@@ -1363,9 +1363,6 @@ body.outlook p {
   border-radius: 10px;
   border-top: 10px solid #663399; }
 
-.header {
-  background: #FBF18E; }
-
 .header p {
   color: #ffffff;
   margin: 0; }
@@ -1388,6 +1385,16 @@ body.outlook p {
 .pd-reset {
   padding: 0 !important; }
 
+@media only screen and (min-width: 596px) {
+  .pd-red {
+    padding-bottom: 8px !important;
+    padding-top: 8px !important; } }
+
+@media only screen and (max-width: 596px) {
+  .pd-red {
+    padding-bottom: 14px !important;
+    padding-top: 14px !important; } }
+
 .mg-reset {
   margin: 0 !important; }
 
@@ -1397,8 +1404,11 @@ body.outlook p {
   text-align: center !important;
   margin: 0 auto !important; }
 
-.yellow-bg {
-  background-color: #eacb3c !important; }
+.whitefon {
+  background-color: #fff; }
+
+.redfon {
+  background-color: #d51b29 !important; }
 
 .auto {
   margin: 0 auto !important; }
@@ -1411,11 +1421,16 @@ body.outlook p {
   table .true {
     display: table-header-group !important; } }
 
-.yellow {
-  color: #eacb3c !important; }
+.red {
+  color: #d51b29;
+  text-decoration: underline;
+  font-weight: 700; }
 
-.black {
-  background-color: #282828; }
+.greyfon {
+  background-color: #2a2a2a !important; }
+
+.blackfon {
+  background-color: #000; }
 
 .white {
   color: #fff; }
@@ -1423,6 +1438,9 @@ body.outlook p {
 @media only screen and (max-width: 596px) {
   .auto-adaptive {
     margin: 0 auto !important; } }
+
+.tiny-text {
+  font-size: 10px; }
 
 .block {
   padding-left: 16px !important;

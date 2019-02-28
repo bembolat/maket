@@ -3,20 +3,20 @@
 // Licensed under MIT Open Source
 
 @import
-  'util/util',
-  'settings/settings',
-  'components/normalize',
-  'grid/grid',
-  'grid/block-grid',
-  'components/alignment',
-  'components/visibility',
-  'components/type',
-  'components/button',
-  'components/callout',
-  'components/thumbnail',
-  'components/menu',
-  'components/outlook-first',
-  'components/media-query';
+  'util/util.scss',
+  'settings/settings.scss',
+  'components/normalize.scss',
+  'grid/grid.scss',
+  'grid/block-grid.scss',
+  'components/alignment.scss',
+  'components/visibility.scss',
+  'components/type.scss',
+  'components/button.scss',
+  'components/callout.scss',
+  'components/thumbnail.scss',
+  'components/menu.scss',
+  'components/outlook-first.scss',
+  'components/media-query.scss';
 
 
 
@@ -42,13 +42,6 @@
 .container.body-drip {
   border-radius: 10px;
   border-top: 10px solid #663399;
-}
-
-
-
-
-.header {
-  background: $yellow;
 }
 
 .header p {
